@@ -4,7 +4,7 @@ if __name__ == "__main__":
     dy_train_model(
         folder_path='../data',
         folder_path_utf8='../data_utf8',
-        data_name='msr_wentao',
+        data_name='msr',
         max_epochs=20,
         batch_size=20,
         char_dims=50,
