@@ -43,7 +43,7 @@ x_data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 # plt.show()
 
 plt.plot()
-plt.title('Performance of our method on the PKU dataset')
+# plt.title('Performance of our method on the PKU dataset')
 plt.plot(x_data, data[:, 3], 'o-', color = 'r')
 plt.plot(x_data, data[:, 4], '*--', color = 'b')
 plt.plot(x_data, data[:, 5], '^:', color = 'g')
